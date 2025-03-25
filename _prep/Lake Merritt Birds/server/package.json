@@ -1,0 +1,15 @@
+{
+  "name": "lake-merritt-birds-server",
+  "version": "1.0.0",
+  "description": "Backend server for Lake Merritt Birds application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  }
+}
