@@ -1,0 +1,38 @@
+.light-bg {
+  background-color: bisque;
+}
+
+.dark-bg {
+  background-color: #696969;
+}
+
+.toggle-container {
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 30px;
+  width: 60px;
+  height: 30px;
+  margin: 10px;
+  transition: background-color .3s;
+  position: relative;
+}
+
+.toggle-circle {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  transition: transform .3s;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.toggle-on {
+  background-color: #aed581;
+}
+
+.toggle-on .toggle-circle {
+  transform: translateX(30px);
+}
+/*# sourceMappingURL=react_state.aa436662.css.map */
