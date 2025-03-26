@@ -1,0 +1,13 @@
+#toggle {
+  text-align: center;
+  height: 100vh;
+  padding-top: 100px !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+#toggle.light-bg {
+  background-color: bisque;
+}
+#toggle.dark-bg {
+  background-color: dimgray;
+}

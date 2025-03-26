@@ -1,35 +1,26 @@
 import React, { useState } from 'react';
-import '../css/main.css';
+import '../css/Toggle.css';
 
-function Basic() {
+export function Toggle() {
   const [light, setLight] = useState(true);
 
   const toggleLightMode = () => {
-    setLight(!light)
+    setLight(!light);
   }
 
   return (
-    <div className={ (light ? "light-bg" : "dark-bg") }>
+    <div 
+      id="toggle"
+      className={ (light ? "light-bg" : "dark-bg") }
+    >
 
-      <h3>Toggle React `useState` Hook Example</h3>
+      <h3> Toggle React `useState` Hook Example </h3>
 
       <p> { light ? "Light" : "Dark" } Mode </p>
       
-      <button onClick={toggleLightMode}>Toggle Light Mode</button>
+      <button onClick={toggleLightMode}> Toggle Light Mode </button>
 
-      
-      {/* 
-      <br/><br/>
-      <div
-        className={"toggle-container " + (light ? "toggle-on" : "")}
-        onClick={toggleLightMode}
-      >
-        <div className="toggle-circle"></div>
-      </div> 
-      */}
-     
     </div>
   );
-}
 
-export default Basic;
+}

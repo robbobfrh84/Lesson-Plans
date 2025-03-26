@@ -1,0 +1,37 @@
+/* #toggled_styled {
+
+} */
+#toggle_styled.light-bg {
+  background-color: bisque;
+}
+#toggle_styled.dark-bg {
+  background-color: dimgray;
+}
+
+/* ..review... */
+.toggle-container {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+.toggle-circle {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.toggle-on {
+  background-color: #aed581;
+}
+.toggle-on .toggle-circle {
+  transform: translateX(30px);
+}

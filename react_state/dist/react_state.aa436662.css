@@ -1,8 +1,48 @@
-.light-bg {
+#toggle {
+  text-align: center;
+  height: 100vh;
+  padding-top: 100px !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
+#toggle.light-bg {
   background-color: bisque;
 }
 
-.dark-bg {
+#toggle.dark-bg {
+  background-color: #696969;
+}
+
+#home h3, #home div h4 {
+  padding-left: 10px;
+}
+
+html, body {
+  margin: 0;
+}
+
+h3, h1 {
+  margin-top: 0;
+}
+
+#app {
+  background-color: pink;
+}
+
+#app > div {
+  padding: 10px;
+}
+
+#toggle {
+  text-align: center;
+}
+
+#toggle_styled.light-bg {
+  background-color: bisque;
+}
+
+#toggle_styled.dark-bg {
   background-color: #696969;
 }
 
