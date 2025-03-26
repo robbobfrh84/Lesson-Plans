@@ -13,5 +13,8 @@ vscode
 .parcel-cache
 **/.parcel-cache
 
-dist
-**/dist
+dist/
+**/dist/
+
+.cache
+**/.cache
