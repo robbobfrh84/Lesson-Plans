@@ -18,7 +18,9 @@ export function Toggle() {
 
       <p> { light ? "Light" : "Dark" } Mode </p>
       
-      <button onClick={toggleLightMode}> Toggle Light Mode </button>
+      <button onClick={toggleLightMode}> 
+        Toggle Light Mode 
+      </button>
 
     </div>
   );
