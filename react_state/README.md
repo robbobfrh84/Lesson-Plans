@@ -13,5 +13,5 @@ Slide Deck:
 ### Source Code
 
 Github Repository:
-- https://github.com/robbobfrh84/Lesson-Plans/blob/main/README.md
+- https://github.com/robbobfrh84/Lesson-Plans/blob/main/react_state/README.md
 
