@@ -11,11 +11,11 @@ export const Home = () => (
 
     <nav>
       <h3><Link to="/toggle">Toggle</Link></h3>
-
       <h3><Link to="/Toggle_Complete">Toggle (complete)</Link></h3>
       
       <br/>
-      <h3><Link to="/setting_complete">Setting Only (Complete)</Link></h3>
+      <h3><Link to="/settings">Setting</Link></h3>
+      <h3><Link to="/settings_complete">Setting (Complete)</Link></h3>
 
 
       <br/><br/>

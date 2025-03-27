@@ -13,7 +13,7 @@ export function Toggle() {
       className={ (light ? "light-bg" : "dark-bg") }
     >
 
-      <h1> ☀️ Light Dark Mode Toggle 🌙 </h1>
+      <h1> ☀️ Light Dark Mode Toggasdfle 🌙 </h1>
 
       <h2> Mode: { light ? "Light" : "Dark" } </h2>
       

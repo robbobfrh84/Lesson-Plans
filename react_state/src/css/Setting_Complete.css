@@ -1,0 +1,83 @@
+#setting_complete {
+  text-align: center;
+  height: 100vh;
+  padding-top: 100px !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+#setting_complete h2 {
+  padding-top: 20px;
+}
+/* #setting_complete span {
+  padding-top: 20px;
+} */
+#toggle_styled.light-bg {
+  background-color: bisque;
+  transition: background-color 1s;
+}
+#toggle_styled.dark-bg {
+  background-color: dimgray;
+  transition: background-color 1s;
+}
+
+
+
+
+/* BIG TOGGLE */
+.toggle-container {
+  position: relative;
+  width: 180px;
+  height: 90px;
+  background-color: #ccc;
+  border-radius: 90px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.toggle-circle {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 74px;
+  height: 74px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.toggle-on {
+  background-color: lightblue;
+}
+.toggle-on .toggle-circle {
+  transform: translateX(90px);
+}
+
+/* SMALL TOGGLE */
+/* .toggle-container {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+  margin: auto;
+}
+.toggle-circle {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.toggle-on {
+  background-color: lightblue;
+}
+.toggle-on .toggle-circle {
+  transform: translateX(30px);
+} */
