@@ -10,13 +10,19 @@ export const Home = () => (
     <h1>React State Examples:</h1>
 
     <nav>
-      <h3><Link to="/toggle">Basic Toggle State</Link></h3>
-      <h3><Link to="/toggle_styled">Toggle State with Style</Link></h3>
+      <h3><Link to="/toggle">Toggle</Link></h3>
+
+      <h3><Link to="/Toggle_Complete">Toggle (complete)</Link></h3>
+      
+      <br/>
+      <h3><Link to="/setting_complete">Setting Only (Complete)</Link></h3>
+
 
       <br/><br/>
       <h4>More Examples:</h4>
       <div>
         <h4><Link to="/basic">Basic Counter</Link></h4>
+        <h3><Link to="/toggle_basic">Basic Toggle State</Link></h3>
       </div>
     </nav>
 

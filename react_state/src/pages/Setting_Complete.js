@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../css/Toggle_Styled.css';
 
-export function Toggle_Styled() {
+export function Setting_Complete() {
   const [light, setLight] = useState(true);
 
   const toggleLightMode = () => {
@@ -14,10 +14,14 @@ export function Toggle_Styled() {
       className={ (light ? "light-bg" : "dark-bg") }
     >
 
-      <h3>Toggle React `useState` Hook Example</h3>
+      <h1> Settings only </h1>
 
-      <p> { light ? "Light" : "Dark" } Mode </p>
+      <p>"This Web App is all About Settings! No content needed " - Settings Only CEO</p>
       
+
+      <hr />
+      NOTE: Section should be transformed into modal
+  
       <div
         className={"toggle-container " + (light ? "toggle-on" : "")}
         onClick={toggleLightMode}

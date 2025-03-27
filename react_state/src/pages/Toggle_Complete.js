@@ -1,21 +1,22 @@
 import React, { useState } from 'react';
 import '../css/Toggle_Styled.css';
 
-export function Toggle() {
-  let light = true;
+export function Toggle_Complete() {
+  const [light, setLight] = useState(true);
 
   const toggleLightMode = () => {
-    light = false;
+    setLight(!light);
   }
 
   return (
-    <div id="toggle_styled"
+    <div 
+      id="toggle_styled"
       className={ (light ? "light-bg" : "dark-bg") }
     >
 
       <h1> ☀️ Light Dark Mode Toggle 🌙 </h1>
 
-      <h2> Mode: { light ? "Light" : "Dark" } </h2>
+      <h3> Mode: { light ? "Light" : "Dark" } </h3>
       
       <div
         className={"toggle-container " + (light ? "toggle-on" : "")}
